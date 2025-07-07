@@ -1,6 +1,6 @@
 # n8n-nodes-_node-name_
 
-This is an n8n community node. It lets you use CIPP in your n8n workflows.
+This is an n8n community node. It lets you use 1Password in your n8n workflows.
 
 _App/service name_ is _one or two sentences describing the service this node integrates with_.
 

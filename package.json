@@ -1,7 +1,7 @@
 {
-  "name": "@n8layer/n8n-nodes-n8n-nodes-cipp",
+  "name": "@n8layer/n8n-nodes-n8n-nodes-1password",
   "version": "0.1.0",
-  "description": "This is an n8n community node. It lets you use CIPP in your n8n workflows.",
+  "description": "This is an n8n community node. It lets you use 1Password in your n8n workflows.",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n8layer/n8n-nodes-cipp.git"
+    "url": "https://github.com/n8layer/n8n-nodes-1password.git"
   },
   "engines": {
     "node": ">=20.15"
@@ -36,10 +36,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/CippOAuth2Api.credentials.js"
+      "dist/credentials/1PasswordOAuth2Api.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Cipp/Cipp.node.js"
+      "dist/nodes/1password/1password.node.js"
     ]
   },
   "devDependencies": {
