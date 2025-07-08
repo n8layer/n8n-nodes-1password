@@ -36,10 +36,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/1PasswordOAuth2Api.credentials.js"
+      "dist/credentials/OnePasswordApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/1password/1password.node.js"
+      "dist/nodes/OnePassword/OnePassword.node.js"
     ]
   },
   "devDependencies": {
