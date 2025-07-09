@@ -8,7 +8,7 @@ export class OnePassword implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: '1Password',
 		name: '1password',
-		icon: 'file:1password.svg',
+		icon: 'file:1Password.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
