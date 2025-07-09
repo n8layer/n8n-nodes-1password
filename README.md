@@ -26,7 +26,7 @@ This node supports the following operations:
 - **Delete an Item** - Remove an item from a vault
 - **Get Item Details** - Retrieve detailed information about a specific item
 - **List Items** - Get all items from a vault with optional filtering
-- **Update a Subset of an Item** - Modify specific fields of an item using PATCH operations
+
 
 ### Vaults
 - **Get Vaults** - List all available vaults
