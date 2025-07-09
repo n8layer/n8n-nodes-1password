@@ -73,24 +73,24 @@ export const itemOperations: INodeProperties[] = [
 					},
 				},
 			},
-			{
-				name: 'Update a Subset of an Item',
-				value: 'updateItem',
-				action: 'Update an item',
-				routing: {
-					request: {
-						method: 'PATCH',
-						url: '=/vaults/{{ $parameter.vaultUUID }}/items/{{ $parameter.itemUUID }}',
-						body: [
-							{
-								op: '={{ $parameter.op }}',
-								path: '={{ $parameter.path }}',
-								value: '={{ $parameter.value }}',
-							},
-						],
-					},
-				},
-			},
+			// {
+			// 	name: 'Update a Subset of an Item',
+			// 	value: 'updateItem',
+			// 	action: 'Update an item',
+			// 	routing: {
+			// 		request: {
+			// 			method: 'PATCH',
+			// 			url: '=/vaults/{{ $parameter.vaultUUID }}/items/{{ $parameter.itemUUID }}',
+			// 			body: [
+			// 				{
+			// 					op: '={{ $parameter.op }}',
+			// 					path: '={{ $parameter.path }}',
+			// 					value: '={{ $parameter.value }}',
+			// 				},
+			// 			],
+			// 		},
+			// 	},
+			// },
 		],
 		default: 'getItems',
 	},
