@@ -21,7 +21,7 @@ export const fileOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '/vaults/{{ $parameter.vaultUUID }}/items/{{ $parameter.itemUUID }}/files/{{ $parameter.fileUUID }}/content',
+						url: '=/vaults/{{ $parameter.vaultUUID }}/items/{{ $parameter.itemUUID }}/files/{{ $parameter.fileUUID }}/content',
 						qs: {
 							inline_content: '{{ $parameter.inlineContent }}',
 						},
@@ -35,7 +35,7 @@ export const fileOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '/vaults/{{ $parameter.vaultUUID }}/items/{{ $parameter.itemUUID }}/files/{{ $parameter.fileUUID }}',
+						url: '=/vaults/{{ $parameter.vaultUUID }}/items/{{ $parameter.itemUUID }}/files/{{ $parameter.fileUUID }}',
 						qs: {
 							inline_content: '{{ $parameter.inlineContent }}',
 						},

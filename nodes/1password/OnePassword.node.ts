@@ -7,7 +7,7 @@ import { fileOperations, fileFields } from './descriptions/FileDescription';
 export class OnePassword implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: '1Password',
-		name: '1password',
+		name: 'onePassword',
 		icon: 'file:1Password.svg',
 		group: ['transform'],
 		version: 1,
@@ -65,3 +65,6 @@ export class OnePassword implements INodeType {
 		],
 	};
 }
+
+// Make it the default export
+export default OnePassword;

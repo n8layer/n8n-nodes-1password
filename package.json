@@ -39,7 +39,7 @@
       "dist/credentials/OnePasswordApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/1password/1password.node.js"
+      "dist/nodes/1password/OnePassword.node.js"
     ]
   },
   "devDependencies": {
